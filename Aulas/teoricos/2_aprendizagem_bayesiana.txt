@@ -1,0 +1,26 @@
+Naive bayes
+
+Usado para várias finalidades, entre elas mineração de texto.
+
+Baseado no teorema de bayes, vindo da estatística. Dessa forma, possui uma abordagem probabilística
+
+Exemplos de uso:
+    - Filtros de spam
+    - Mineração de emoções, determinar uma emoção com base no texto
+    - Separação, categorização de textos
+    
+Trabalha com base em probabilidades. Sendo assim, calcula a probabilidade de um evento ocorrer e por 
+meio do resultado determina sua classificação
+
+Correção Laplaciana 
+    Como trabalhamos com multiplicações de probabilidade, a correção Laplaciana coloca um registro
+    adicional nas células em que o valor correspondente é zero. Dessa forma, obtém-se o resultado
+
+Vantagens:
+    - Rápido
+    - Simplicidade de interpretação
+    - Trabalha com altas dimensões, várias features
+    - Boas previsões em bases pequenas
+
+Desvantagens:
+    - Assume que os atributos são independentes, o que nem sempre é verdade

@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px  # graficos dinamicos
 
 base_credit = pd.read_csv(
-    '/home/andre/Projetos/Machine_learning_udemy_course/Bases_de_dados/credit_data.csv')
+    '/home/andre/Projetos/MachineLearningCourseUdemy/Bases_de_dados/credit_data.csv')
 
 # Localização de registros
 print(base_credit.loc[base_credit['age'] < 0], end='\n\n')

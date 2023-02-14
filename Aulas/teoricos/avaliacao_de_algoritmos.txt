@@ -1,0 +1,2 @@
+Algoritmo analisa, com base nos atributos previsores, tenta prever algo ou encontrar alguma relação entre classes
+Utiliza divisões da base, uma para treinar o modelo e outra para testar o modelo

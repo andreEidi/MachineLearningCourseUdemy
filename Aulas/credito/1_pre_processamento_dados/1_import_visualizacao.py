@@ -8,7 +8,7 @@ import plotly.express as px  # graficos dinamicos
 # importa a base de dados e visualização de dados
 # 0 a pessoa pagou o empréstimo - 1 a pessoa não pagou
 base_credit = pd.read_csv(
-    '/home/andre/Projetos/Machine_learning_udemy_course/Bases_de_dados/credit_data.csv')
+    '/home/andre/Projetos/MachineLearningCourseUdemy/Bases_de_dados/credit_data.csv')
 # imprime as 5 primeiras linhas da base de dados ou quantas quiser, basta colocar como parâmetro
 print(base_credit.head(), end='\n\n')
 # imprime as 5 últimas linhas da base

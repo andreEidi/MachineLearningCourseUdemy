@@ -1,0 +1,20 @@
+Aprendizado em instâncias 
+(Não base do oconcentro pode ser útil aplicar esse algoritmo com faetures de caracteristicas da pessoa)
+
+-  Algoritmo KNN:
+    - K nearest neighbour (k vizinhos mais próximos)
+    - Realiza um cálculo de distância entre as instâncias
+    - Classifica com base na próximidade entre as instâncias
+    - O k indica quantos vizinhos mais próximos irá contabilizar. No caso de empate, usa um critério
+    como, por exemplo, menor distância
+    - Esse algoritmo não faz criação de modelo, analisa cada instância individualmente 
+    - K é definido pelo user
+    - A distância é calculada pela fórmula da distância euclidiana 
+    - Muito utilizado em sistemas de recomendação 
+    - Para valores muito distantes, com grande variância é importante normalizar/padronizar os valores
+
+Detalhes:
+    - Simples e poderoso
+    - Indicado quando o relacionamento entre as caracteristicas é complexo
+    - K pequeno pode ter dados com ruidos ou outliers podem prejudicar
+    - K grande pode ocorrer overfitting

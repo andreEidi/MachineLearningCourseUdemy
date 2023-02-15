@@ -1,0 +1,27 @@
+Aprendizado por regras
+
+Parecido com programação linear 
+
+Algoritmo OneR I:
+    - Gera apenas uma regra 
+    - Um atributo faz todo trabalho (o mais 'importante')
+    - Para cada atributo escolhe a regra mais comum, contabilizando o erro
+    - Escolhe aquele atributo que apresenta no total o menor erro
+      
+Algoritmo Prism:
+    - Regras usando mais de um atributo 
+    - Mais especificado 
+
+Árvores x regras
+    - Crompreensibilidade (ambos)
+    - Pouco espaço de armazenamento (ambos)
+    - Mais lento (regras)
+    - Em geral, regras não apresentam os resultados das árvores
+
+Como foi dito que este método é pouco utilizado atualmente, irei testar com o próprio google collab fornecido pelo curso
+
+
+Majority learner:
+    - Aprende por meio da escolha do valor modal
+    - Bom para indicar qual o mínimo valor de acurácia que devemos obter para afirmar se um Algoritmo
+    vale a pena ou é melhor apenas chutar a maior classe

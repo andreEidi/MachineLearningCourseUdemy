@@ -1,0 +1,45 @@
+Árvore de decisão 
+
+Gera um árvore de decisão, na qual os atributos estão nos ramos 
+
+Cálculos:
+    - Entropy: Quantas vezes aparece cada classe sobre o total. Isso aplicado à fórmula 
+    - Ganho: O maior ganho de informação fica na raiz da árvore  
+
+A cada ramo da árvore calculamos novamente a entropia e o ganho 
+
+
+Splits: Queremos com o algoritmo de árvore de decisão criar a melhor divisão dados
+        para que possa-se obter os melhores resultados
+
+Conceito:
+    - Póda: Fazer uma póda nos atributos que possuem menor ganho de informação
+    - Bias: Viés
+        - Error por classificação errada, submete conjunto de testes em que o resultado 
+        da errado
+    - Variância:
+        - Erros por sensibilidade pequena a mudanças na base de treinamento
+        - Pode levar a overfitting
+
+Vantagens:
+    - Interpretação fácil
+    - Não precisa normalizar ou padronizar os dados
+    - Rápido para classificar novos registros
+
+Desvantagens:
+    - Geração de árvores muito complexas
+    - Pequenas mudanças nos dados pode mudar a árvore
+    - Problema NP-completo para construir a árvore 
+
+Upgrade como random forest melhoram o desempenho (Usado no Kinect do Xbox 360)
+Conceito: 
+    - Cart: Usado tanto para classificação quanto para regressão
+
+
+Random forest
+    Utiliza varias árvores para tomar uma decisão 
+    Ensenble learning
+        - Consultar várias instâncias para tomar uma decisão
+    Usa média (regressão) e vota da maioria (classificação)
+    Quanto mais árvores coloca, há a tendência de ocorrer o Problema de overfitting
+    Escolhe randomicamente k atributos para criar as árvores

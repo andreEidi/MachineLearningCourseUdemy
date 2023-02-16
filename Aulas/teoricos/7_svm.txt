@@ -1,0 +1,23 @@
+SVM
+
+
+
+Em geral, é um algoritmo muito eficiente 
+Ideal para tarefas complexas, tais como reconhecimento de voz, caracteres, imagense etc 
+Ideia básica:
+    - Aprende hiperplanos de separação com margem máxima 
+    - Desenhar a melhor 'reta' que separa as classes 
+
+Alguns problemas não são lineares, sendo assim, não é possível separá-los por meio de uma função linear
+Para resolver esse problema, podemos utilziar outros tipos de kernel que calculas diferentes curvas para 
+separar as classes
+
+Vantagens:
+    - Não é muito influeciado por ruídos nos dados 
+    - Utilizado para classificação e regressão
+    - Aprende conceitos não presentes nos dados originais 
+    - Mias fácil de usar do que redes neurais
+Desvantagens:
+    - Testar várias combinações de parâmetros 
+    - Lento
+    - Black box (Não é tão fácil de visualizar matematicamente, difícil de interpretar)

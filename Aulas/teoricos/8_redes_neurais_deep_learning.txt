@@ -1,0 +1,36 @@
+Redes neurais/deep learning
+
+Usado para problemas que não podem ser resolvidos por algoritmos pré-determinados
+
+Algumas aplicações:
+    - Descoberta de novos remédios
+    - Entendimento de linguagem natural
+    - Carros autônomos
+    - Reconhecimento facial
+    - Cura para doenças
+    - Bolsa de valores
+    - Encontrar soluções para controle de tráfego
+
+Muito usado quando temos muitos dados e problemas complexos 
+
+Biológico:
+É fornecido um valor de entrada, a rede processa e devolve uma resposta
+Biologicamente, o neurônio só é ativado se o valor for maior que um limiar
+
+Artificial:
+O 'neurônio' dispara se a entrada é maior que um número definido
+O 'neurônio' artificial recebe entradas, em seguida passa por uma função 'soma' e uma função
+ativação, que indica se o neurônio foi ou não ativado
+
+Perceptron:
+    Na função ativação, em geral (mas não é regra, pode ser sigmoide, por exemplo), é usada uma função degrau, sendo que o peso positivo indica sinapse excitadora
+    já o peso negativo, indica sinapse inibidora. Estes pesos amplificam ou reduzem o sinal de entrada
+    O conhecimento da rede neural são os pesos 
+
+O treinamento de uma rede neural é encontrar os pesos de cada um dos atributos
+Cada feature de analise é um neurônio
+
+Quando temos problemas não linearmente separaveis torna-se necessário usar redes neurais de várias camadas
+Consiste de passos Perceptron intermediários na rede neural com suas próprias funções soma e ativação
+
+Sempre atualiza-se os pesos nas de forma a buscar o menor erro possível 

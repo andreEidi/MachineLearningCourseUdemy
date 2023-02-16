@@ -1,0 +1,7 @@
+Regressão Logística
+
+Utiliza calculos de regressão para determinar, por exemplo, uma reta que determina os pontos, 
+dessa forma pode classificar os dados
+
+Encontrar a melhor 'linha' para encaixar nos dados por meio da função sigmoide
+

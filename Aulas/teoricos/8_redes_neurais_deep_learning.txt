@@ -34,3 +34,34 @@ Quando temos problemas não linearmente separaveis torna-se necessário usar red
 Consiste de passos Perceptron intermediários na rede neural com suas próprias funções soma e ativação
 
 Sempre atualiza-se os pesos nas de forma a buscar o menor erro possível 
+
+Gradiente:
+    - busca encontrar a melhor disposição de valores para obter o menor error
+    - Usando derivadas parciais 
+Delta 
+    - erro*derivada sigmoide
+Delta camada oculta
+    - Derivada sigmoide * peso * deltaSaida 
+backPropagation
+    - Propaga a atualização dos pesos
+    - peso =(peso * momento) + (entrada*delta *taxa de aprendizagem)
+
+Bias (viés):
+    - Adiciona uma nova instancia artificial para evitar multiplicações por zero, por exemplo
+Erro:
+    - Resposta correta - calculada
+    - mean square error (MSE)
+    - root mean score error (RMSE)
+        - MSE e RMSE penalizam error maiores 
+    
+Quantas neuronios colocar na camada oculta 
+    - (entradas + saidas)/2
+Problemas linearmente separaveis não precisam de camadas ocultas 
+
+Multicamada saida categorica:
+    - deve-se codificar o retorno de cada saída da classe desejada 
+
+OBS: Gradiente descendente estocastico
+    - Ajuda a prevenir minimos locais 
+    - Mais rápido, pois não precisa carregar toda a base na memória
+    

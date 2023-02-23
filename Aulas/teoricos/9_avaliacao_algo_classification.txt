@@ -1,0 +1,29 @@
+Avaliação dos algoritmos 
+
+Matriz de confusão:
+    - Indica quantitativamente os erros de classificação do modelo para cada classe
+    - Importante levar em conta o cenário/contexto da aplicação para avaliar se a acurácia é boa o suficiente ou não
+    - Número de classes de saída: Observar se a acurácia obtida possui acerto superior a uma simples função de distribuição aleatória
+    - Zero rules: Algoritmo que classifica todas previsões para aquele que possui maior quantidaded de registros. Isso nos indica se o método é melhor do que simplesmente classificar com o mais recorrente 
+
+Validação cruzada:
+    - k-fold: Divide a base em k conjuntos distintos. Dessa forma, em k iterações é feito treinamento e validação com um dos conjuntos sendo teste, em cada iteração, com o resto sendo treinamento
+
+Underfitting e overfitting:
+    - under: Usar algoritmos muito simples para resolver o problema.
+        - Tende a fornecer resultados ruins na base de treinamento
+    - Over: O algoritmo fica viciado, pois fica muito adaptado em resultados do treinamento.
+        - Tende a fornecer resultados ruins na base de teste
+        - Muito específico
+        - Erros na variação das instâncias 
+
+Ajuste dos parâmentros dos algoritmos:
+    - Tuning dos parâmetros, ver códigos 
+
+
+ANOVA (analise de variação) e turkey:
+    - comparação entre 3 ou mais grupos (independentes)
+    - Dados devem estar em uma distribuição normal
+    - Variação entre os grupos comparando a variação dentro dos grupos 
+    - Quando aplicado sobre os resultados de modelos indica se há mudanças entre eles 
+    - Ver aula

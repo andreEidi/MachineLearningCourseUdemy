@@ -1,0 +1,12 @@
+Classificação mais precisa
+Busca-se o melhor conjunto de classificadores 
+Diminui o risco de selecionar um classificador inadequado
+
+Estratégias:
+    - Unanimity (Todos devem concordar)
+    - Simple Majority (50% + 1)
+    - Plurality (mais votos)
+
+        
+Rejeição dos classifiadores:
+    - Rejeitar o resultado se não tiver certeza do resultado 

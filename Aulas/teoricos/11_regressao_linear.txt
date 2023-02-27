@@ -1,0 +1,19 @@
+corf correlação(covariancia/(desvioPadrao(x)*desvioPadrao(y))): 0 indica que não há relação, negativo indica relação inversa, 1 indica uma relação
+coef de determinação: Como a variavel alvo consegue ser explicada pela variavel explanatória
+
+
+Regressão linear:
+    - Modela a relação entre variaveis numericas 
+    - Encontrar a melhor reta que encaixa nos pontos fornecidos
+    - Ajustar os parametros a fim de minimizar o erro
+
+Abordagens:
+    - Design matrix (algebra linear)
+        - Inversão de matrizes, alto custo computacional 
+        - Base de dados com poucos atributos
+    - Descida do gradiente 
+        - Em busca do menor erro global 
+
+Regressão linear multipla:
+    - Utilzia diversas variaveis para melhor encontrar a função de encaixe
+    

@@ -1,0 +1,2 @@
+Separa os slipts com base na média de cada split, isto é, a cada split toma-se a média de cada conjunto de dados 
+então essa média se torna uma condição para escolha 

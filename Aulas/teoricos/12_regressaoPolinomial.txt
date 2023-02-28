@@ -1,0 +1,4 @@
+Para problemas não linearmente separaveis 
+
+A formula possui variveis de diferentes graus a fim de obter uma curva que melhor descreve os dados 
+

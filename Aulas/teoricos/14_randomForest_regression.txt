@@ -1,0 +1,2 @@
+Ensemble learning (aprendizem em conjunto)
+    - Usa a média para (regressão) para tomar a decisão

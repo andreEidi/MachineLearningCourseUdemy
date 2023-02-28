@@ -1,0 +1,4 @@
+SVR
+
+Parametro adicional - epsilon (penalidade pela distancia do valor real)
+Encontrar o melhor hiperplano 

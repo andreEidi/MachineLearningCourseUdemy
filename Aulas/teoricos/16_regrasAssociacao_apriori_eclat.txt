@@ -1,0 +1,40 @@
+
+Algoritmo Apriori:
+Descobrir um tipo de padrão que existe nos Bases_de_dados
+
+EX: Carrinho de supermercado:
+    - Encontrar produtos que, em geral, são comprados juntos 
+    - Alocação dos produtos no mercado
+    - Planejar catálogos das lojas e folhetos de promoções 
+    - Sistemas de recomendação
+
+
+Algoritmo:
+    Fase 1:
+        - Descobrir todos os conjuntos de itens com SUPORTE maior ou igual ao mínimo especificado pelo usuário
+        - Cálculo: Numero de registros com as caracteristicas / Número total de registros 
+        - Frequência que cada produto aparece
+        - Dessa forma, quando indicamos o suporte base associamos somente os itens especificados com suporte maior ou igual ao desejado
+        Passo 1:
+            - Calcular o suporte para conjuntos com apenas 1 item 
+        Passo 2:
+            - Calcular o suporte para cinjuntos de 2 elementos 
+            - Deve ser feito para todos os conjuntos possiveis com os itens restantes (ambos devem obedecer as caracteristicas desejadas)
+        ...
+    Fase 2:
+        - A partir dos conjuntos de itens frequentes, descobrir regras de associação com fator de CONFIANÇA maior ou igual especificado
+        - Cálculo: Numero de registros com as caracteristicas X e Y / Número total de registros X
+    Calculo do lift:
+        - Descobrir quais das regras escolhidas são as melhores 
+        - Lift = CONFIANÇA(A então B)/SUPORTE(B) = X 
+        - Grau de relevancia de uma regra
+        - clientes que compram A tem X vezes mais chances de comprarem pão 
+        - Ordena as regras com base nesses resultados 
+    CONFIANÇA:
+        - probabilidade de ocorrência de um item no carrinho de compras, uma vez que o carrinho de compras já possui outros itens
+
+
+ECLAT
+    Gerar os itens mais frequentes
+    Parecido com o apriori, mas só com o suporte 
+    (Por ser mais simples que o apriori, ver o slide da aula para ver a parte prática)

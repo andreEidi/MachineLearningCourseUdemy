@@ -1,0 +1,31 @@
+Agrupamento
+    - Segmentação de mercado 
+    - Varias aplicações, tais como:
+        - Encontrar grupos de clientes que irão comprar um produto 
+        - Agrupamento de noticias/documentos 
+        - Agrupamento de produtos similares 
+        - Perfis de clientes (Netflix)
+        - Analise de redes sociais 
+    - Aprendizagem não supervisionada 
+    - Criar novos dados 
+    - O próprio algoritmo aprende as relações entre os dados 
+    - Elementos dentro de um mesmo grupos devem ter propriedades similares 
+
+Algoritmo de Lloyd (k-means):
+    - Inicializar os centroides aleatoriamente (centros de um cluster)
+    - Para cada ponto na base de dados, calcular a distancia para cada centroide e associar ao que estiver mais perto 
+    - Calcular a média de todos os pontos ligados a cada centroide e definir um novo centroide (repetindo as etapas anteriores)
+    - Para o algoritmo fornecemos o número k que indica quantos grupos queremos formar 
+    - O calculo dessa distancia é feita pela formula da distancia euclidiana 
+
+Definição do número de clusters 
+    - Ter conhecimento sobre os grupos necessários 
+    - Caso não tenha conhecimento prévio:
+        - clusters = sqrt(N registros/2)
+        - Elbow Method:
+            - Tenta varios valores de k
+
+Agrupamento hierarquico 
+    - É criada uma estrutura em formato de árvore que indica o número de clusters 
+    - Abordagem aglomerativa: cada registro pertence ao seu próprio cluster 
+    - 

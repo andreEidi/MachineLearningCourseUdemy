@@ -28,4 +28,13 @@ Definição do número de clusters
 Agrupamento hierarquico 
     - É criada uma estrutura em formato de árvore que indica o número de clusters 
     - Abordagem aglomerativa: cada registro pertence ao seu próprio cluster 
-    - 
+
+DBSCAN
+    -Density based Spatial CLustering of Applications With Noise
+    - Não é necessario especificar o numero de clusters 
+    - Mais rapido que o KMeans
+    - Em geral, apresenta melhores resultados que o KMeans
+    - Tenta encontrar pontos que estão em um distancia minima 
+    - Encontra padroes não lineares
+    - Robusto contra outliers 
+    - Dependendo da Inicialização, um ponto pode pertencer a diferentes clusters

@@ -1,0 +1,22 @@
+Processamento de linguagem natural 
+    - NLTK (Natural language Toolkit)
+    - SpaCy (Industrial-Strength Natural Language processing)
+    - Buscas em textos 
+    - Extração de entidades nomeadas (Achar pessoas, empresas etc)
+    - Wordcloud (Geração de nuvens de palavras, busca por palavras mais frequentes)
+    - Classificação de sentimentos 
+    - Outras aplicações:
+        - Speech transcription
+        - Neural Machine translation
+        - Chatbots
+        - Q&A
+        - Text Summarization
+        - Image captioning
+        - Video captioning
+
+Por praticidade e não precisar instalar bibliotecas na minha máquina vou fazer no google collab
+Link: https://colab.research.google.com/drive/1NU_OGPLARjVLESvGS7-Q3SA6NDdbj0wC?usp=sharing
+
+Link (Classificação de sentimentos): https://colab.research.google.com/drive/1bxWyWAeq1L8fJK6cvfSnDjA9EhvVJw4S?usp=sharing
+
+Link (ex. Twitter): https://colab.research.google.com/drive/1BLLezIJv0Igi4EHV94zPO-XQlQ9essX0?usp=sharing

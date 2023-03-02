@@ -1,0 +1,12 @@
+Aprendizado por reforço
+    - Na aprendizagem por reforço temos um ambiente na qual um agente exerce uma ação, sendo que cada ação gera um novo estado 
+    - Cada estado gera recompensas, negativas ou positivas 
+    - Parecido com o treinamento de Pets
+    - Não é necessario uma base de dados, apenas um ambiente e definir as recompensas 
+    - MDP (Markov decision Process)
+        - Exploration x exploitation
+            exploitation: indica o caminho com maior probabilidade a ser seguido 
+            Exploration: indica probabilidades de outros caminhos. Isso faz o algoritmo nunca parar de procurar outros caminhos 
+
+Como o google collab já tem o gym instalado e não iria utilizar muito na minha máquina por agora, prefiro por praticidade executar o código no ambiente do collab
+Segue o link: https://colab.research.google.com/drive/1roz5olj4-qC21HNsdO2_fq5XwfaDm64d?usp=sharing

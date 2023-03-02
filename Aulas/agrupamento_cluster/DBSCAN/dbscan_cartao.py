@@ -2,7 +2,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
 from sklearn.preprocessing import StandardScaler
-from sklearn.cluster import KMeans
+from sklearn.cluster import DBSCAN, KMeans
 import pandas as pd
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
@@ -35,16 +35,11 @@ def normalizeScale(base_cartao):
     return X_cartao
 
 
-def dendrograma(X_cartao):
-    dendrograma = dendrogram(linkage(X_cartao, method='ward'))
-    plt.show()
-
-
 def model(X_cartao):
-    hc_cartao = AgglomerativeClustering(
-        n_clusters=3, affinity='euclidean', linkage='ward')
-    rotulos = hc_cartao.fit_predict(X_cartao)
-    print("rotulos: ", rotulos)
+    dbscan_cartao = DBSCAN(eps=0.37, min_samples=5)
+    rotulos = dbscan_cartao.fit_predict(X_cartao)
+    print("Rotulos: ", rotulos)
+    print("Quantos há de cada grupo: ", np.unique(rotulos, return_counts=True))
     return rotulos
 
 
@@ -57,7 +52,6 @@ def main():
     base_cartao = data()
     base_cartao = addCollum(base_cartao)
     X_cartao = normalizeScale(base_cartao)
-    dendrograma(X_cartao)
     rotulos = model(X_cartao)
     newGraphs(X_cartao, rotulos)
 

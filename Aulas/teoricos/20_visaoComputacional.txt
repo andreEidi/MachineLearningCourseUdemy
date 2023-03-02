@@ -1,0 +1,15 @@
+Visual computacional:
+    - Detectção de objetos 
+    - Reconhecimento facial 
+    - Rastreamento de objetos em vídeo 
+
+
+Classificador cascade:
+    - Exemplo: detecção de faces
+    - Precisa de dois conjuntos (faces, e não faces)
+    - Determina a face com base em padrões nos pixels da imagem 
+
+Rastreamento de imagens: Ver videoaula 
+
+Detecção de faces, Reconhecimento facial, Rastreamento de objetos:
+    link: https://colab.research.google.com/drive/1SvEFu-jwceZBK6THKKZFnDE2iAIabUZF?usp=sharing

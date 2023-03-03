@@ -1,0 +1,4 @@
+Dados desbalanceados:
+    - Undersampling: Diminuir os registros da classe maior (perde um pouco da informação):
+    - Oversampling: cópias da classe menor (gerar amostras sintéticas)
+    - 

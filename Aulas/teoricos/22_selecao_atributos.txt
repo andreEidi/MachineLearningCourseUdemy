@@ -1,0 +1,1 @@
+Nem sempre utilizar todos os atributos disponiveis é a melhor solução, alguns das features podem ser dispensaveis para o problema 

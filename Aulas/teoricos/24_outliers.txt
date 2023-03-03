@@ -1,0 +1,15 @@
+Outliers:
+    - Valores anormais 
+    - Valores fora do padrão 
+    Causa:
+        - Acaso
+        - Erros no preenchimento da base de dados 
+        - Fraudes 
+    
+
+Estratégia de detecção:
+    - Boxplot 
+    - Gráfico de dispersão 
+    - PyOD
+
+    link: https://colab.research.google.com/drive/1SyELOB4hCVI6uiowySPNbNn6XnyZLMXV?usp=sharing

@@ -1,0 +1,6 @@
+Exploração da série temporal:
+    - Usaremos algoritmo arima para previsões com series temporais 
+    - Facebooko prophet (Visualização diaria de paginas web)
+
+
+link: https://colab.research.google.com/drive/1h4_FEG71P-9BKpvS-yl2wNs1RxZJCxtU?usp=sharing

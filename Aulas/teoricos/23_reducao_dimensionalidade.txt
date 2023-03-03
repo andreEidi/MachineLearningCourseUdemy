@@ -1,0 +1,18 @@
+PCA (principal component analysis)
+    - Caso haja correlação entre atributos irá relacioná-los 
+    - Não suporvisionado 
+
+
+LDA:
+    - Além de encontrar os componentes principais, LDA também encontra os eixos que maximizam a separação entre multiplas classes 
+    - Supervisionado 
+
+Kernel PCA:
+    - PCA e LDA são usados em dados linearmente separaveis 
+    - Caso não sejam, utiliza-se o kernel para poder torná-los separaveis
+
+Seleção: Algortimo irá indicar quais dos atributos são mais importantes
+Extração: Irá criar novos atributos combinando parecidos 
+
+
+link google colab: https://colab.research.google.com/drive/1SyELOB4hCVI6uiowySPNbNn6XnyZLMXV?usp=sharing
